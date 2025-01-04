@@ -1,0 +1,21 @@
+{
+  "name": "hello-typescript-pnpm-workspace-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -F \"*\" build",
+    "test": "pnpm -F \"*\" test",
+    "cleandep": "rm -rf node_modules && pnpm -r exec rm -rf node_modules index.d.ts index.js index.js.map tsconfig.tsbuildinfo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "8",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0"
+  }
+}
