@@ -1,3 +1,5 @@
-index.d.ts
+*.d.ts
 index.js
-index.js.map
+*.js.map
+multiplication.js
+*.test.js
