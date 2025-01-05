@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "cleandep": "rm -rf node_modules src/multiplication.d.ts src/multiplication.js src/multiplication.js.map test/multiplication.test.d.ts test/multiplication.test.js test/multiplication.test.js.map tsconfig.tsbuildinfo"
   },
   "keywords": [],
   "author": "",
